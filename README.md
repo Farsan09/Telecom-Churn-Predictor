@@ -9,10 +9,12 @@ An interactive, production-ready Streamlit web application that uses a trained X
 
 ## 🛠️ Project Structure
 
+```text
 ├── app.py                # Streamlit UI and custom feature engineering
 ├── XGB_model_2.pkl       # Serialized Scikit-Learn / XGBoost Pipeline
 ├── requirements.txt      # Production dependencies for Streamlit Cloud
 └── README.md             # Project documentation
+```
 
 ## 📈 End-to-End Prediction Pipeline
 Rather than relying on manual, brittle preprocessing inside the web app code, this project leverages a unified Scikit-Learn Pipeline framework. This ensures that the training environment and production web application handle data identically.
