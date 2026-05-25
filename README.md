@@ -12,6 +12,7 @@ An interactive, production-ready Streamlit web application that uses a trained X
 ```text
 ├── Data_Cleaning_and _Exploration.ipynb
 ├── Model_Building.ipynb
+├── Model_Explainability.ipynb
 ├── app.py                # Streamlit UI and custom feature engineering
 ├── XGB_model_2.pkl       # Serialized Scikit-Learn / XGBoost Pipeline
 ├── requirements.txt      # Production dependencies for Streamlit Cloud
